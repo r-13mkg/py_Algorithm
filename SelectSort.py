@@ -1,5 +1,5 @@
 
-def sort(A):
+def SelectSort(A):
     for i in range(0, len(A) - 1):
         minAddr = SerchMinValue(A,i)
         if minAddr != -1:
