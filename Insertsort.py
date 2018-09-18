@@ -1,6 +1,4 @@
 
-
-
 def InsertSort(SortArray):
     for i in range(1,len(SortArray)):
         Insert(SortArray, i)
